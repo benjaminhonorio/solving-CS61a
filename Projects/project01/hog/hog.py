@@ -91,7 +91,14 @@ def swine_align(player_score, opponent_score):
     False
     """
     # BEGIN PROBLEM 4a
-    "*** YOUR CODE HERE ***"
+    lowest = min(player_score, opponent_score)
+
+    while 10 <= lowest:
+        if player_score % lowest == 0 and opponent_score % lowest == 0:
+            return True
+        lowest -= 1
+
+    return False
     # END PROBLEM 4a
 
 
