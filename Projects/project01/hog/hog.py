@@ -44,7 +44,10 @@ def free_bacon(score):
 
     # Trim pi to only (score + 1) digit(s)
     # BEGIN PROBLEM 2
-    "*** YOUR CODE HERE ***"
+    times_to_loop = 101 - (score + 1)
+    while times_to_loop > 0:
+        pi //= 10
+        times_to_loop -= 1
     # END PROBLEM 2
 
     return pi % 10 + 3
