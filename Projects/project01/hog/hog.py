@@ -120,7 +120,10 @@ def pig_pass(player_score, opponent_score):
     False
     """
     # BEGIN PROBLEM 4b
-    "*** YOUR CODE HERE ***"
+    diff = abs(player_score - opponent_score)
+    if player_score < opponent_score and diff < 3:
+        return True
+    return False
     # END PROBLEM 4b
 
 
