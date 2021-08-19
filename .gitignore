@@ -1,0 +1,9 @@
+gui_files/
+tests/
+__pycache__/
+ok
+*.ok
+.ok*
+ucb.py
+calc.py
+hog_gui.py
