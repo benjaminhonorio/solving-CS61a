@@ -1,6 +1,7 @@
 gui_files/
 tests/
 __pycache__/
+Notes/*.py
 ok
 *.ok
 .ok*
