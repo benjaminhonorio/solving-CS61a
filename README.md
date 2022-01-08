@@ -1,6 +1,12 @@
 # CS61A Fall 2020 (solutions)
 
-In progress ...
+CS 61A: Structure and Interpretation of Computer Programs
+
+Fall 2020
+
+Instructors: Hany Farid, John DeNero
+
+(In progress)
 
 * Homeworks
 * Labs
